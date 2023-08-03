@@ -1,3 +1,43 @@
+
+.home-btn {
+  border: 1px;
+  background: #ffffff;
+  min-width: 120px;
+  height: 3rem;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  padding: 16px, 28px, 16px, 28px;
+  gap: 8px;
+  border-radius: 6px;
+  cursor: pointer;
+  color: #171752;
+}
+.home-btn:hover svg {
+  stroke: goldenrod; /* Replace with the color you want when hovering */
+}
+
+.home-btn:hover {
+  border: 2px solid goldenrod;
+  color: goldenrod;
+  background: #0c0c43;
+}
+
+/* Background Images */
+.bg-icons {
+  position: absolute;
+  width: 500px;
+  z-index: 1;
+}
+
+
+@media only screen and (max-width: 1268px) {
+  .bg-icons {
+    width: 400px;
+  }
+}
+
+
 .wrapper {
   flex: 1;
 }
@@ -167,7 +207,12 @@ a:active {
   color: inherit;
 }
 
-
+@media only screen and (max-width: 768px) {
+  .home-section {
+    width: 100%;
+    padding: 0 10px;
+  }
+}
 
 @media only screen and (max-width: 768px) {
   #globe-bg {
