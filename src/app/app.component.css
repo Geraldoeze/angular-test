@@ -79,21 +79,6 @@
   /* background-color: red; */
 }
 
-.vertical-text.tabs-right>li {
-  -webkit-transform: rotate(90deg);
-  -moz-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  -o-transform: rotate(90deg);
-  transform: rotate(90deg);
-}
-
-.vertical-text.tabs-left>li {
-  -webkit-transform: rotate(-90deg);
-  -moz-transform: rotate(-90deg);
-  -ms-transform: rotate(-90deg);
-  -o-transform: rotate(-90deg);
-  transform: rotate(-90deg);
-}
 
 
 .lines {
@@ -215,17 +200,7 @@ a:active {
 }
 
 @media only screen and (max-width: 768px) {
-  #globe-bg {
-    width: 105vw;
-    height: 70vh;
-    position: absolute;
-    left: -20px;
-    top: -100px;
-    margin: 0px !important;
-    padding: 0px !important;
-    overflow: hidden;
-  }
-
+ 
   .intro-text {
     font-size: 1.65rem;
   }
@@ -283,39 +258,9 @@ a:active {
     text-align: left !important;
   }
 
-  .text-size {
-    font-size: 1.25rem !important;
-    padding-left: 0px !important;
-    padding-right: 0px !important;
-  }
 
-  .big-text {
-    font-size: 1.5rem !important;
-  }
 
-  .fs-4 {
-    font-size: .75rem !important;
-  }
-
-  .mobile-margin {
-    margin-top: 0px !important;
-  }
-
-  .img-size {
-    width: 9.6rem !important;
-    margin: 1.3rem 0 0 2rem !important;
-  }
-
-  .img-size-2 {
-    width: 9.6rem !important;
-    margin: -3rem 0 0.6rem 2rem !important;
-  }
-
-  .txt-responsive {
-    margin-top: 2.5rem !important;
-    font-size: 1.3rem !important;
-  }
-
+ 
   .margin-responsive {
     margin-top: 3rem !important;
   }
