@@ -45,6 +45,37 @@
   border-radius: 2px;
 }
 
+.home-btn {
+  border: 1px;
+  background: #ffffff;
+  min-width: 120px;
+  height: 3rem;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  padding: 16px, 28px, 16px, 28px;
+  gap: 8px;
+  border-radius: 6px;
+  cursor: pointer;
+  color: #171752;
+}
+.home-btn:hover svg {
+  stroke: goldenrod; /* Replace with the color you want when hovering */
+}
+
+.home-btn:hover {
+  border: 2px solid goldenrod;
+  color: goldenrod;
+  background: #0c0c43;
+}
+
+/* Background Images */
+.bg-icons {
+  position: absolute;
+  width: 500px;
+  z-index: 1;
+}
+
 .second-icon {
   position: absolute;
   width: 200px;
@@ -249,9 +280,16 @@
   border-radius: 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
-
+@media only screen and (max-width: 1268px) {
+  .bg-icons {
+    width: 400px;
+  }
+}
 @media only screen and (max-width: 768px) {
-
+  .home-section {
+    width: 100%;
+    padding: 0 10px;
+  }
   .first-contents {
     flex-direction: column;
     align-items: center;
