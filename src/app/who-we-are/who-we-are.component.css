@@ -1,11 +1,4 @@
-.about-container {
-  background: var(--gray-50, #f5f6f7);
-  padding: 80px 20px 0 20px;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-}
+
 .about-cover {
   width: 90%;
   margin: 3.5rem auto 3rem auto;
@@ -29,17 +22,6 @@
   color: var(--gray-900, #061c3d);
 }
 
-.about-image {
-  width: 85%;
-  display: flex;
-  justify-content: center;
-  margin: 40px auto 0 auto;
-}
-
-.mission-container {
-  background: #fff;
-  padding-top: 3rem;
-}
 .mission-contain {
   width: 90%;
   margin: auto;
